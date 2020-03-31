@@ -1,0 +1,22 @@
+package com.learn;
+
+public class Volt {
+
+	public int volts;
+
+	
+	public Volt(int volts) {
+		super();
+		this.volts = volts;
+	}
+
+	public int getVolts() {
+		return volts;
+	}
+
+	public void setVolts(int volts) {
+		this.volts = volts;
+	}
+	
+	
+}

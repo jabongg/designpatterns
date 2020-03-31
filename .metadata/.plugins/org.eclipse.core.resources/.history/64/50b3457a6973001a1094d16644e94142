@@ -1,0 +1,6 @@
+package com.learn;
+
+public class MobileAdapter {
+
+	Volt get3Volt();
+}

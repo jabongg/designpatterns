@@ -1,0 +1,6 @@
+package com.learn;
+
+public interface WallSocket {
+	Volt getVolts();
+
+}

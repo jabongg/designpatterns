@@ -1,0 +1,22 @@
+package com.learn;
+
+public class MobileAdapterImpl implements MobileAdapter {
+
+	
+	private WallSocket wallSocket;
+	
+	
+	public MobileAdapterImpl(WallSocket wallSocket) {
+		super();
+		this.wallSocket = wallSocket;
+	}
+
+
+	@Override
+	public Volt get3Volt() {
+		
+		int v240 = wallSocket.getVolts().getVolts();
+		return new Volt(3);
+	}
+
+}

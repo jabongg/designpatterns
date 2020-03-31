@@ -1,0 +1,12 @@
+package com.learn;
+
+public class ClientTest {
+
+	public static void main(String[] args) {
+		WallSocket wallSocket = new WallSocketImpl();
+		Volt v220 = wallSocket.getVolts();
+		
+		
+		System.out.println(v220);
+	}
+}

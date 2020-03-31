@@ -1,0 +1,11 @@
+package com.learn;
+
+public class MobileAdapterImpl implements MobileAdapter {
+
+	@Override
+	public Volt get3Volt() {
+		
+		return new Volt(3);
+	}
+
+}

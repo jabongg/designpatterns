@@ -1,0 +1,10 @@
+package com.learn;
+
+public class WallSocketImpl implements WallSocket {
+
+	@Override
+	public Volt getVolts() {
+		return new Volt(220);
+	}
+
+}
